@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectActivity"
+    android:gravity="center_vertical"
+    android:background="#C8BFE7">
+
+    <TextView
+        android:id="@+id/selectfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/sound_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/button"
+        android:layout_marginBottom="5sp"
+        android:text="음성인식 결과" />
+
+    <Button
+        android:id="@+id/lip_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/button"
+        android:layout_marginTop="5sp"
+        android:text="음성+독순술인식 결과" />
+</LinearLayout>
